@@ -1,3 +1,8 @@
+body{
+    background-color: #00000092;
+}
+
+
 h1{
     color: #14c084;
     font-size: 5rem;
@@ -5,9 +10,6 @@ h1{
     font-family: 'Calligraffitti', serif;
 }
 
-body{
-    background-color: #00000092;
-}
 
 .container{
     display: flex;
@@ -63,7 +65,7 @@ body{
     border: 0%;
 }
 
-@media (max-width: 450px)
+@media (max-width: 550px)
 {
     h1
     {
@@ -114,7 +116,7 @@ body{
     }  
 }
 
-@media (max-height: 600px)
+@media (max-height: 650px)
 {
     h1{
         color: #14c084;
@@ -123,21 +125,22 @@ body{
         font-family: 'Calligraffitti', serif;
     }
 
-    img
-    {
-        width: 150px;
-        margin: 0%;
-        padding: 0%;
-    }
-
     .container{
         justify-content: center;
     }
 
-   
+    img
+    {
+        width: 150px;
+    }
 
     .container .player1{
         padding-right: 50px;
     }
    
+    .counter p{
+        font-size: 1rem;
+        color: aliceblue;
+        font-family: 'Calligraffitti', 'serif';
+    }
 }
