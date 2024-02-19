@@ -1,0 +1,143 @@
+h1{
+    color: #14c084;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Calligraffitti', serif;
+}
+
+body{
+    background-color: #00000092;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: right;
+    
+}
+
+.counter p{
+    font-size: 1.25rem;
+    color: aliceblue;
+    font-family: 'Calligraffitti', 'serif';
+}
+.btn2{
+    font-size: 16px;
+    background-color: #14c084;
+    color: aliceblue;
+}
+.container .player1{
+    padding-right: 75px;
+}
+
+.container .player1 p{
+    font-size: 2.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Calligraffitti', 'serif';
+}
+
+
+.container .player2 p{
+    font-size: 2.5rem;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Calligraffitti', 'serif';
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+.btn{
+    
+    font-size: 2.0rem;
+    background-color:#14c084;
+    color: aliceblue;
+    margin: 0%;
+    border: 0%;
+}
+
+@media (max-width: 450px)
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    img
+    {
+        width: 75%;
+    }
+
+    
+    .container .player2 p{
+        padding-top: 50px;
+        font-size: 1.75rem;
+       
+    }
+
+   
+    .container .player1 p{
+        padding-top: 50px;
+        font-size: 1.75rem;
+      
+    }
+  
+    .btn{
+    
+        font-size: 1.5rem;
+        background-color:#14c084;
+        color: aliceblue;
+        margin: 0%;
+        border: 0%;
+    }
+
+    .container .player1 img{
+        padding-left: 20px;
+    }  
+
+    .container .player2 img{
+        padding-left: 20px;
+    }  
+}
+
+@media (max-width: 280px)
+{
+    .container .player1{
+        padding-right: 5px;
+    }  
+}
+
+@media (max-height: 600px)
+{
+    h1{
+        color: #14c084;
+        font-size: 2.5rem;
+        text-align: center;
+        font-family: 'Calligraffitti', serif;
+    }
+
+    img
+    {
+        width: 150px;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .container{
+        justify-content: center;
+    }
+
+   
+
+    .container .player1{
+        padding-right: 50px;
+    }
+   
+}

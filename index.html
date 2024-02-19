@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Calligraffitti">
+    <link rel = 'stylesheet' href="./style.css" >
+    <title>Dice Game</title>
+</head>
+<body>
+    <h1>Roll The Dice</h1>
+    <div class = 'counter'>
+        <div class = 'content'>
+            <p>Player 1 wins: 0</p>
+            <p>Player 2 wins: 0</p>
+            <button class ='btn2' type = 'buttom' onclick = 'reset()'>Click To Reset</button>
+        </div>
+
+    </div>
+    <div class = 'container'>
+        <div class = 'player1'>
+            <p>Player 1</p>
+            <img src = './images/dice6.png' class = 'image-one'>
+        </div>
+        <div class = 'player2'>
+            <p>Player 2</p>
+            <img src = './images/dice6.png' class = 'image-two'>
+        </div>
+    </div>
+    <div class = 'btn-container'>
+        <button class="btn" type = 'button' onclick = 'roll()'>Click To Roll</button>
+    </div>
+
+    <script src = './index.js'></script>
+</body>
+</html>
