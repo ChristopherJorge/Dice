@@ -114,7 +114,7 @@ body{
     }  
 }
 
-@media (max-height: 600px)
+@media (max-height: 700px)
 {
     h1{
         color: #14c084;
