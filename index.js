@@ -11,8 +11,8 @@ function reset()
 }
 function roll()
 {
-    var diceOne = Math.round((Math.random() * 6));
-    var diceTwo = Math.round((Math.random() * 6));
+    var diceOne = Math.floor((Math.random() * 6) + 1);
+    var diceTwo = Math.floor((Math.random() * 6) + 1);
 
 
 switch (diceOne)
